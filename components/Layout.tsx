@@ -132,13 +132,9 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                     </div>
                     <div className="pt-8 border-t border-slate-900 flex flex-col md:flex-row justify-between items-center text-slate-500 text-sm">
                         <p>© 2024 Smilelife Agency. Todos los derechos reservados.</p>
-                        <div className="flex items-center gap-2 mt-4 md:mt-0">
-                            <span>Madrid</span>
-                            <span className="w-1 h-1 bg-slate-500 rounded-full"></span>
-                            <span>Dubai</span>
-                            <span className="w-1 h-1 bg-slate-500 rounded-full"></span>
-                            <span>New York</span>
-                        </div>
+                        <p className="mt-4 md:mt-0 flex items-center gap-1">
+                            Hecho con <span className="text-red-500">❤️</span> desde España
+                        </p>
                     </div>
                 </div>
             </footer>
